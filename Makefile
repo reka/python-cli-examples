@@ -14,6 +14,7 @@ doc-assets:
 .PHONY: doc-build
 doc-build:
 		  cp netlify_config.toml $(BASEDIR)/config.toml && \
+		  cp -r content $(BASEDIR) && \
 		  cd $(BASEDIR); hugo
 
 .PHONY: clean
