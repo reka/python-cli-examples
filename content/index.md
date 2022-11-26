@@ -1,0 +1,1 @@
+CLI examples in Python using [Typer](https://typer.tiangolo.com/) and [Rich](https://rich.readthedocs.io/en/stable/)
